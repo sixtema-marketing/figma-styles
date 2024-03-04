@@ -1,0 +1,260 @@
+{
+  "jf": {
+    "gap": {
+      "xl": {
+        "value": "{jf.dimension.7}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "xs": {
+        "value": "{jf.dimension.3}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "Small gap between itens"
+      },
+      "xl2": {
+        "value": "{jf.dimension.9}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "md": {
+        "value": "{jf.dimension.5}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "none": {
+        "value": "{jf.dimension.0}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "xs2": {
+        "value": "{jf.dimension.2}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "Really small gap between itens."
+      },
+      "lg": {
+        "value": "{jf.dimension.6}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "xl3": {
+        "value": "{jf.dimension.11}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "g": {
+        "value": "{jf.dimension.14}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      }
+    },
+    "radii": {
+      "xl": {
+        "value": "{jf.dimension.5}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "lg": {
+        "value": "{jf.dimension.3}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "md": {
+        "value": "{jf.dimension.2}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "pill": {
+        "value": "49.95rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      }
+    },
+    "padding": {
+      "xg": {
+        "value": "{jf.dimension.16}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "g": {
+        "value": "{jf.dimension.15}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      }
+    },
+    "size": {
+      "xg": {
+        "value": "{jf.dimension.15}",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      }
+    },
+    "dimension": {
+      "0": {
+        "value": "0rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": ""
+      },
+      "1": {
+        "value": "0.1rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "2px"
+      },
+      "2": {
+        "value": "0.2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "4px"
+      },
+      "3": {
+        "value": "0.4rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "8px"
+      },
+      "4": {
+        "value": "0.6rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "12px"
+      },
+      "5": {
+        "value": "0.8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "16px"
+      },
+      "6": {
+        "value": "1rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "20px"
+      },
+      "7": {
+        "value": "1.2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "24px"
+      },
+      "8": {
+        "value": "1.4rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "28px"
+      },
+      "9": {
+        "value": "1.6rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "32px"
+      },
+      "10": {
+        "value": "1.8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "36px"
+      },
+      "11": {
+        "value": "2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "40px"
+      },
+      "12": {
+        "value": "2.2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "44px"
+      },
+      "13": {
+        "value": "2.4rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "48px"
+      },
+      "14": {
+        "value": "2.8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "56px"
+      },
+      "15": {
+        "value": "3.2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "64px"
+      },
+      "16": {
+        "value": "3.6rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "72px"
+      },
+      "17": {
+        "value": "4rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "80px"
+      },
+      "18": {
+        "value": "4.8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "96px"
+      },
+      "19": {
+        "value": "5.6rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "112px"
+      },
+      "20": {
+        "value": "6.4rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "128px"
+      },
+      "21": {
+        "value": "7.2rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "144px"
+      },
+      "22": {
+        "value": "8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "160px"
+      },
+      "23": {
+        "value": "8.8rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "176px"
+      },
+      "24": {
+        "value": "9.6rem",
+        "type": "dimension",
+        "parent": "GLOBAL BASE/values",
+        "description": "192px"
+      }
+    }
+  }
+}

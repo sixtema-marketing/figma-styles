@@ -1,0 +1,560 @@
+{
+  "doc": {
+    "Strategy": {
+      "Archive": {
+        "BrandsLibsDesc": {
+          "value": "Cada marca deve ter sua própria biblioteca de tokens. Essa biblioteca é subcategorizada em dois tipos de arquivos: “Scheme”, que são os tokens de fundação da marca e “Themes”, que são basicamente os tokens de cores para cada tema que a marca pode adquirir.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "GlobalBaseDesc": {
+          "value": "Design tokens que são compartilhados entre todas as marcas. Estes tokens são categorizados como “Foundations”, que são os tokens mais primitivos, em sua maioria utilizados apenas para servirem de referência a outros tokens, e os tokens “Semantics”, que trazem com clareza sua usabilidade.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Intro": {
+          "value": "Este sistema de design tokens foi planejado para funcionar com múltiplas marcas, de maneira expansível. Sua estratégia consiste em combinar bibliotecas globais (tokens que serão compartilhados por todas as marcas) e bibliotecas da marca, que consiste basicamente em definições particulares de cores e tipografias. Nada impede, no entanto, que outros tipos de design tokens sejam criados para as bibliotecas da marca.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Title": {
+          "value": "Estratégia para Arquivos",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "BrandsLibsTitle": {
+          "value": "Bibliotecas de Marcas",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "CompsDesc": {
+          "value": "“Comps” também é uma biblioteca global, que agrupa os principais tokens de componentes.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "FigmaIndicatorsTitle": {
+          "value": "Indicativos nos arquivos do Figma",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "TableIntro": {
+          "value": "Para esta estrutura funcionar, é necessário se atentar às estratégias de referência de tokens:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "GlobalPatternsDesc": {
+          "value": "“Global Patterns” são tokens que usam os tokens da biblioteca da Marca como referência e geram as variantes padronizadas para cada um deles.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "FigmaIndicatorsDesc": {
+          "value": "No Figma, as bibliotecas Globais e de Marca são sinalizadas no cabeçalho de cada frame.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Customizations": {
+        "Intro": {
+          "value": "Devido à estratégia de temas, as bibliotecas de Marca devem seguir a convenção de nomes definida para que a biblioteca “Global Patterns” e “Comps” funcionem corretamente. Isso não exclui a possibilidade de customizações. Em outras palavras, o nome dos design tokens deve ser o mesmo para todas as Marcas.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Intro2": {
+          "value": "Esta mesma abordagem deve ser mantida nos tokens dos temas de cada marca:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Tiitle": {
+          "value": "Biblioteca de Marcas e customizações",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "CustomizationsDesc": {
+          "value": "Novos tokens podem ser adicionados dentro das bibliotecas de Marcas. Para utilizá-los, no entanto, deve-se criar bibliotecas locais de Patterns e Comps. Neste caso, o sistema de tokens teria a seguinte estrutura:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      }
+    },
+    "description": {
+      "value": "Descrição",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "GlobalLib": {
+      "value": "Biblioteca Global",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "otherThemes": {
+      "value": "Outros Temas",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "BrandLib": {
+      "value": "Biblioteca da Marca",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "library": {
+      "value": "Biblioteca",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "Customizations": {
+      "value": "Customizações",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "GlobalBase": {
+      "Summary": {
+        "Subtitle": {
+          "value": "Design Tokens compartilhados por todas as marcas",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "FoundationsDesc": {
+          "value": "“Foundations” são tokens primitivos que, em grande parte, servem de referência na construção de tokens semânticos.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "SemanticsDesc": {
+          "value": "“Semantics” são tokens de fundação que informam o seu caso de uso.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Layers": {
+        "Desc": {
+          "value": "\"Layers, também conhecido como z-index, é uma propriedade CSS que controla a sobreposição de elementos em uma página da Web. Ela define a ordem de empilhamento dos elementos, determinando quais aparecerão acima ou abaixo dos outros. Quanto mais alto for o valor do índice z, maior será a sobreposição do elemento. Essa propriedade é útil para controlar a sobreposição visual de elementos em um layout.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Dimension": {
+        "Desc": {
+          "value": "Os tokens de dimensão são genéricos e podem ser usados ​​para tamanhos, espaçados, raio de borda, intensidades numéricas (desfoque de fundo), coordenadas x e y.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Animation": {
+        "Desc": {
+          "value": "Tokens primitivos para a criação de tokens de animação mais robustos.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "FontSizes": {
+        "Desc": {
+          "value": "Esses tokens são elementos primitivos que transportam um valor absoluto, dependendo da fonte-base do navegador do usuário. Eles são empregados na definição de tipos tipográficos.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      }
+    },
+    "DesignToken": {
+      "value": "Design Token",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "Preview": {
+      "value": "Prévia",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "Value": {
+      "value": "Valor",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "BrandLibs": {
+      "summary": {
+        "Subtitle": {
+          "value": "Biblioteca de Design Tokens que caracterizam a marca",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ThemesDesc": {
+          "value": "Essencialmente tokens de cores derivados do scheme, traduzidos para as propriedades background, foregrounds, borders, illustrations e elevations, em seus devidos tons para cada tema.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "States": {
+        "FocusDesc": {
+          "value": "O estado \"focus\" comunica quando um usuário destaca um elemento ou pelo teclado ou por meio de um comando de voz.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "OpacityDesc": {
+          "value": "Alguns estados consomem tokens de opacidade. São eles:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "DraggedDesc": {
+          "value": "O estado \"Dragged\" é ativado em elementos que possuem essa funcionalidade, quando o usuário pressiona e move um elemento.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "HoverDesc": {
+          "value": "O estado \"hover\" é ativado pelo usuário quando este move o cursor sobre um componente ou elemento interativo.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "SelectedDesc": {
+          "value": "O estado \"select\" comunica uma escolha do usuário.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "EnabledDesc": {
+          "value": "Este é o estado padrão de um componente ou elemento, quando está habilitado para interação, porém ela ainda não foi realizada.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "OpacityTitle": {
+          "value": "O uso de opacidade",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Desc": {
+          "value": "“States” ou “Estados” são tokens responsáveis por padronizar estados de componentes.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "DisabledDesc": {
+          "value": "O estado ”disabled” comunica um elemento não disponível para interação.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "Os design tokens dentro do agrupamento “States” foram criados com o fim de garantir a escalabilidade e otimizar a implementação de tokens, evitando assim a necessidade de criar uma extensa gama de cores",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ModifiersDesc": {
+          "value": "Em uma abordagem mais prática, qualquer cor pode automaticamente gerar suas variantes em cada estados ao consumir modificadores. Estes, por sua vez, são valores numéricos que indicam uma intensidade, onde o valor 1 (equivalente a 100%) é o valor original da cor.  Os modificadores disponíveis no Design System JellyFish são:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ModifiersTitle": {
+          "value": "O uso de modificadores",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ModifiersDesc2": {
+          "value": "No plugin Tokens Studio, os estados para cada cor foram parametrizados utilizando as seguintes configurações:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "FocusDesc2": {
+          "value": "Para o estado de foco, incorpora-se também uma sombra (box-shadow) para realçar o elemento.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "ColorsScheme": {
+        "DataVizDesc": {
+          "value": "São utilizadas em textos, rótulos, linhas, preenchimentos e outros elementos que apresentam dados, como gráficos ou etiquetas de categorias que não têm relação com as cores informativas.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "BrandTitle": {
+          "value": "Marca",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "BrandDesc": {
+          "value": "Essas cores são utilizadas em elementos que devem refletir a marca.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "InfoTitle": {
+          "value": "Informativas",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "NeutralTitle": {
+          "value": "Neutra",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "InfoDesc": {
+          "value": "As cores informativas são utilizadas para caracterizar mensagens com conotações críticas, de sucesso e de alerta.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Desc": {
+          "value": "O conjunto 'Colors Scheme' consiste nas cores predominantes da marca, atribuídas a significados e casos de uso específicos. Essas cores são a base de referência para a criação de outros design tokens utilizados em propriedades como backgrounds, foregrounds, borders e shadows.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "NeutralDesc": {
+          "value": "Cores neutras podem ser empregadas em textos, fundos, linhas, bordas e componentes de menor destaque visual.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "DataVizTitle": {
+          "value": "Visualização de Dados",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Modifiers": {
+        "PrimaryColor": {
+          "value": "Cor Primária",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "FilterType": {
+          "value": "Tipo de Filtro",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ModifierToken": {
+          "value": "Token de modificação",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ExampleDesc": {
+          "value": "O modificador é aplicado no plugin Tokens Studio (versão PRO):",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Desc": {
+          "value": "As variações de tons das cores no esquema são alcançadas por meio de modificadores e tokens de intensidade. Essa abordagem assegura a consistência na escala de cores, partindo do princípio de que novos tons são sempre derivados de cores do esquema, resultando em uma redução significativa na quantidade de tokens necessários.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ModifierApplied": {
+          "value": "Modificador aplicado",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ExampleTitle": {
+          "value": "Exemplo de aplicação de um modificador",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "FontFamily": {
+        "PlainDesc": {
+          "value": "Fonte genérica para textos.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "AltDesc": {
+          "value": "Fonte alternativa para dar diferenciar alguns tipos de texto.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "IconDec": {
+          "value": "Família de fonte para ícones.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Title": {
+          "value": "Tokens em Estilos Tipográficos",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Desc": {
+          "value": "Os tipos do sistema tipográfico derivam de três principais famílias de fontes e uma fonte para ícones. Estes tokens são chamados de tokens de fundação da marca.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "BrandDesc": {
+          "value": "Fonte característica da marca, normalmente utilizadas em estilos do tipo Display, Title e Labels.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "FontWieghts": {
+        "Desc": {
+          "value": "Para cada tipo do sistema tipográfico, é definido um token de espessura de fonte.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "FontSize": {
+        "ClamTitle": {
+          "value": "Função clamp();",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "PreviewText": {
+          "value": "Isto é um Display Text",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Desc": {
+          "value": "Testes dos estilos ‘Body’ e ‘Label’ não apresentaram grandes impactos de acessibilidade ema resoluções e plataformas distintas. No entanto, os estilos Display e Title geraram problemas neste aspecto. Por conta disso, a definição dos tamanhos de fontes oscila entre uma abordagem centrada no ‘Intrinsic Design’ e a tradicional escala baseada em um tamanho de fonte raiz. ",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "WithFunction": {
+          "value": "Com função clamp();",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "NoFuncion": {
+          "value": "Sem função clamp();",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "ClampDesc": {
+          "value": "Para os tipos Display e Title (com exceção das variantes xs3 e xs2) a função clamp() trouxe uma solução interessante, que calcula o tamanho da fonte de acordo com a largura do container (cqi) e o tamanho máximo, mínimo e preferido que o tipo em questão pode adotar.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "TextTransform": {
+        "Desc": {
+          "value": "A propriedade text-transform define como capitalizar um elemento de texto. Cada tipo do sistema tipográfico possui um token específico de transformação. ",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "O Figma não recebe o valor ‘none’ e sim ’astyped’.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "LineHeights": {
+        "Desc": {
+          "value": "Os line-heights são determinados após a escolha da família de fonte. No Design System JellyFish, existem 4 alturas de linhas padrões: ",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Title1": {
+          "value": "Fundações",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "Os line-heights devem ser definidos em porcentagem(%) para serem reconhecidos pelo Figma.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "LetterSpacing": {
+        "Desc": {
+          "value": "O espaço entre caracteres é uma fundação de cada marca. Sua configuração é determinada com base na família de fontes e no tamanho da fonte. Assim, é importante compreender que, antes de definir essa propriedade, é necessário estabelecer as duas mencionadas anteriormente.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      },
+      "Typography": {
+        "Desc": {
+          "value": "A base tipográfica do Design System é formada pelas seguintes variantes:",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      }
+    },
+    "Reference": {
+      "value": "Referência",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "Type": {
+      "value": "Tipo",
+      "type": "text",
+      "parent": "Languages/Portuguese BR",
+      "description": ""
+    },
+    "GlobalPatterns": {
+      "Contents": {
+        "Desc": {
+          "value": "Os Contents são todas as possíveis variantes geradas a partir de referências de cores das bibliotecas “Foreground” dos temas de uma marca. São comumente utilizados em textos e ícones.",
+          "type": "text",
+          "parent": "Languages/Portuguese BR",
+          "description": ""
+        }
+      }
+    }
+  }
+}

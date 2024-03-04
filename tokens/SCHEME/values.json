@@ -1,0 +1,84 @@
+{
+  "jf": {
+    "scheme": {
+      "neutral": {
+        "value": "#6577a5",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz7": {
+        "value": "#66a61e",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz5": {
+        "value": "#d86d1c",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz3": {
+        "value": "#1b9e77",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "primary": {
+        "value": "#7645d6",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "warning": {
+        "value": "#c28f3c",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "critical": {
+        "value": "#c02f1f",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz1": {
+        "value": "#386cb0",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz2": {
+        "value": "#00bcf2",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz4": {
+        "value": "#f0d631",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "dataviz6": {
+        "value": "#b92fc2",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "secondary": {
+        "value": "#1a8f89",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      },
+      "success": {
+        "value": "#407619",
+        "type": "color",
+        "parent": "SCHEME/values",
+        "description": ""
+      }
+    }
+  }
+}

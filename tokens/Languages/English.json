@@ -1,0 +1,560 @@
+{
+  "doc": {
+    "Strategy": {
+      "Archive": {
+        "BrandsLibsDesc": {
+          "value": "Each brand should have its own token library. This library is subcategorized into two types of files: 'Scheme,' which are the foundational tokens of the brand, and 'Themes,' which are basically the color tokens for each theme the brand may acquire.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "GlobalBaseDesc": {
+          "value": "Design tokens that are shared across all brands. These tokens are categorized as 'Foundations,' which are the most primitive tokens, mostly used only to serve as reference to other tokens, and 'Semantics' tokens, which clearly bring their usability.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Intro": {
+          "value": "This design tokens system was planned to work with multiple brands in an expandable manner. Its strategy involves combining global libraries (tokens that will be shared by all brands) and brand libraries, which basically consist of specific definitions of colors and typography. However, nothing prevents other types of design tokens from being created for brand libraries.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Title": {
+          "value": "Strategy for Files",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "BrandsLibsTitle": {
+          "value": "Brand Libraries",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "CompsDesc": {
+          "value": " 'Comps' is also a global library, which groups the main component tokens.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "FigmaIndicatorsTitle": {
+          "value": "Indicators in Figma files",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "TableIntro": {
+          "value": "For this structure to work, it is necessary to pay attention to token reference strategies:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "GlobalPatternsDesc": {
+          "value": "'Global Patterns' are tokens that use the tokens from the Brand library as a reference and generate standardized variants for each of them",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "FigmaIndicatorsDesc": {
+          "value": "In Figma, Global and Brand libraries are indicated in the header of each frame.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Customizations": {
+        "Intro": {
+          "value": "Due to the theme strategy, Brand libraries must follow the naming convention defined so that the 'Global Patterns' and 'Comps' libraries work correctly. This does not exclude the possibility of customizations. In other words, the name of the design tokens must be the same for all Brands.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Intro2": {
+          "value": "The same approach must be maintained for the tokens of each brand's themes.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Tiitle": {
+          "value": "Brand Library and Customizations",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "CustomizationsDesc": {
+          "value": "New tokens can be added within the Brand libraries. To use them, however, local libraries of Patterns and Comps must be created. In this case, the token system would have the following structure:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      }
+    },
+    "description": {
+      "value": "Description",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "GlobalLib": {
+      "value": "Global Lib",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "otherThemes": {
+      "value": "Other Themes",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "BrandLib": {
+      "value": "Brand Lib",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "library": {
+      "value": "Library",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "Customizations": {
+      "value": "Customizations",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "GlobalBase": {
+      "Summary": {
+        "Subtitle": {
+          "value": "Design Tokens shared by all brands",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "FoundationsDesc": {
+          "value": "\"Foundations\" are primitive tokens that largely serve as reference in the construction of semantic tokens.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "SemanticsDesc": {
+          "value": " \"Semantics\" are foundational tokens that inform their use case.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Layers": {
+        "Desc": {
+          "value": " \"Layers,\" also known as \"z-index,\" is a CSS property that controls the stacking of elements on a web page. It defines the stacking order of elements, determining which will appear above or below others. The higher the z-index value, the higher the overlap of the element. This property is useful for controlling the visual overlap of elements in a design.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Dimension": {
+        "Desc": {
+          "value": "The dimension tokens are generic and can be used for sizes, spacing, border radius, numeric intensities (background blur), and x and y coordinates.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Animation": {
+        "Desc": {
+          "value": "Primitive tokens for creating more robust animation tokens.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "FontSizes": {
+        "Desc": {
+          "value": "These tokens are primitive elements that carry an absolute value, depending on the user's browser base font size. They are employed in defining typographic styles.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      }
+    },
+    "DesignToken": {
+      "value": "Design Token",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "Preview": {
+      "value": "Preview",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "Value": {
+      "value": "Value",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "BrandLibs": {
+      "summary": {
+        "Subtitle": {
+          "value": "Design Tokens library that characterize the brand.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ThemesDesc": {
+          "value": "Essentially, color tokens derived from the scheme, translated into background, foregrounds, borders, illustrations, and elevations properties, in their appropriate tones for each theme.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "States": {
+        "FocusDesc": {
+          "value": "The \"focus\" state communicates when a user highlights an element either by keyboard or through a voice command.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "OpacityDesc": {
+          "value": "Some states consume opacity tokens. They are:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "DraggedDesc": {
+          "value": "The \"Dragged\" state is activated on elements that have this functionality when the user presses and moves an element.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "HoverDesc": {
+          "value": "The \"hover\" state is activated by the user when they move the cursor over an interactive component or element.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "SelectedDesc": {
+          "value": "The \"select\" state communicates a user's choice.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "EnabledDesc": {
+          "value": "This is the default state of a component or element when it is enabled for interaction, but the interaction has not yet occurred.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "OpacityTitle": {
+          "value": "The use of opacity",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Desc": {
+          "value": "\"States\" or \"Estados\" are tokens responsible for standardizing component states.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "DisabledDesc": {
+          "value": "The \"disabled\" state communicates that an element is not available for interaction.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "The design tokens within the \"States\" grouping were created to ensure scalability and optimize token implementation, thus avoiding the need to create an extensive range of colors.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ModifiersDesc": {
+          "value": "In a more practical approach, any color can automatically generate its variants in each state by consuming modifiers. These, in turn, are numerical values ​​that indicate an intensity, where the value 1 (equivalent to 100%) is the original value of the color. The modifiers available in the JellyFish Design System are:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ModifiersTitle": {
+          "value": "The use of modifiers",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ModifiersDesc2": {
+          "value": "In the Tokens Studio plugin, the states for each color were parameterized using the following settings:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "FocusDesc2": {
+          "value": "For the focus state, a box-shadow is also incorporated to highlight the element.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "ColorsScheme": {
+        "DataVizDesc": {
+          "value": "They are used in texts, labels, lines, fills, and other elements that present data, such as charts or category labels that are not related to informative colors.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "BrandTitle": {
+          "value": "Brand",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "BrandDesc": {
+          "value": "These colors are used in elements that should reflect the brand.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "InfoTitle": {
+          "value": "Informatives",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "NeutralTitle": {
+          "value": "Neutral",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "InfoDesc": {
+          "value": "Informative colors are used to characterize messages with critical, success, and alert connotations.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Desc": {
+          "value": "The 'Color Scheme' set consists of the predominant colors of the brand, assigned to specific meanings and use cases. These colors serve as the reference base for creating other design tokens used in properties such as backgrounds, foregrounds, borders, and shadows.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "NeutralDesc": {
+          "value": "Neutral colors can be used in texts, backgrounds, lines, borders, and visually less prominent components.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "DataVizTitle": {
+          "value": "Data Visualization",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Modifiers": {
+        "PrimaryColor": {
+          "value": "Primary Color",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "FilterType": {
+          "value": "Filter Type",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ModifierToken": {
+          "value": "Modifier Token",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ExampleDesc": {
+          "value": "The modifier is applied in the Tokens Studio plugin (PRO version).",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Desc": {
+          "value": "The variations in shades of colors in the scheme are achieved through modifiers and intensity tokens. This approach ensures consistency in the color scale, based on the principle that new tones are always derived from colors in the scheme, resulting in a significant reduction in the number of tokens required.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ModifierApplied": {
+          "value": "Applied modifier",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ExampleTitle": {
+          "value": "Example of applying a modifier",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "FontFamily": {
+        "PlainDesc": {
+          "value": "Generic font for text.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "AltDesc": {
+          "value": "Alternative font to differentiate some types of text.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "IconDec": {
+          "value": "Font family for icons.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Title": {
+          "value": "Tokens in Typographic Styles",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Desc": {
+          "value": "The types of the typographic system derive from three main font families and one font for icons. These tokens are called brand foundation tokens.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "BrandDesc": {
+          "value": "Characteristic font of the brand, typically used in styles such as Display, Title, and Labels.  Spanish:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "FontWieghts": {
+        "Desc": {
+          "value": "For each type of typographic system, a font weight token is defined.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "FontSize": {
+        "ClamTitle": {
+          "value": "Function clamp();",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "PreviewText": {
+          "value": "This is a Display Text",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Desc": {
+          "value": "Tests of the 'Body' and 'Label' styles did not show significant accessibility impacts across different resolutions and platforms. However, the Display and Title styles generated issues in this regard. Because of this, the definition of font sizes oscillates between an approach centered on 'Intrinsic Design' and the traditional scale based on a root font size.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "WithFunction": {
+          "value": "With clamp() function;",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "NoFuncion": {
+          "value": "No clamp() function;",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "ClampDesc": {
+          "value": "For the Display and Title types (except for the xs3 and xs2 variants), the clamp() function brought an interesting solution, which calculates the font size according to the container width (cqi) and the maximum, minimum, and preferred size that the type in question can adopt.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "TextTransform": {
+        "Desc": {
+          "value": "The text-transform property defines how to capitalize a text element. Each type of typographic system has a specific transformation token.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "Figma does not accept the value 'none' but 'astyped'.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "LineHeights": {
+        "Desc": {
+          "value": "Line heights are determined after the choice of font family. In the JellyFish Design System, there are 4 standard line heights:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Title1": {
+          "value": "Foundations",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        },
+        "Alert1": {
+          "value": "Line heights should be defined in percentage (%) to be recognized by Figma.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "LetterSpacing": {
+        "Desc": {
+          "value": "Character spacing is a foundation of every brand. Its configuration is determined based on the font family and font size. Therefore, it is important to understand that before setting this property, it is necessary to establish the two mentioned above.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      },
+      "Typography": {
+        "Desc": {
+          "value": "The typographic base of the Design System is formed by the following variants:",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      }
+    },
+    "Reference": {
+      "value": "Reference",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "Type": {
+      "value": "Type",
+      "type": "text",
+      "parent": "Languages/English",
+      "description": ""
+    },
+    "GlobalPatterns": {
+      "Contents": {
+        "Desc": {
+          "value": "The Contents are all possible variants generated from color references in the \"Foreground\" libraries of a brand's themes. They are commonly used in texts and icons.",
+          "type": "text",
+          "parent": "Languages/English",
+          "description": ""
+        }
+      }
+    }
+  }
+}

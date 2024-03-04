@@ -1,0 +1,640 @@
+{
+  "jf": {
+    "fg": {
+      "default": {
+        "enabled": {
+          "value": "{jf.scheme.fg.default}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#a0acc9",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#a0acc9",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#d4d9e6",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "moderate": {
+        "enabled": {
+          "value": "{jf.scheme.fg.moderate}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#afb9d0",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#7a8ab0",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#7a8ab0",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "BRAND THEMES/Dark",
+        "description": ""
+      },
+      "warning": {
+        "enabled": {
+          "value": "{jf.scheme.fg.warning}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#e0c59a",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#cc9f58",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#cc9f58",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "muted": {
+        "enabled": {
+          "value": "{jf.scheme.fg.muted}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#53648f",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#53648f",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#8492b7",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "primary": {
+        "enabled": {
+          "value": "{jf.scheme.fg.primary}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#c2aded",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#906add",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#906add",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "secondary": {
+        "enabled": {
+          "value": "{jf.scheme.fg.secondary}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#44ddd6",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#8ceae5",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#44ddd6",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "success": {
+        "enabled": {
+          "value": "{jf.scheme.fg.success}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#95dd61",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#67be28",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#67be28",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "critical": {
+        "enabled": {
+          "value": "{jf.scheme.fg.critical}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#ea8a7e",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#de4634",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#de4634",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz6": {
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz6}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#e3a0e8",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#cf5cd7",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#cf5cd7",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz7": {
+        "focus": {
+          "value": "#93dd42",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#bdea8a",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#93dd42",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz7}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz4": {
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz4}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#f6e57a",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#fbf4c5",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#f6e57a",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz2": {
+        "focus": {
+          "value": "#1fceff",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "hover": {
+          "value": "#74e1ff",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#1fceff",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz2}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz5": {
+        "hover": {
+          "value": "#f1be97",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#e8904d",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#e8904d",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz5}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz3": {
+        "hover": {
+          "value": "#6fe6c2",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz3}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#25d9a3",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#25d9a3",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "dataviz1": {
+        "hover": {
+          "value": "#91b2dc",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "focus": {
+          "value": "#5084c7",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "selected": {
+          "value": "#5084c7",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz1}",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      }
+    },
+    "regular": {
+      "bg": {
+        "primary": {
+          "enabled": {
+            "value": "{jf.scheme.bg.primary}",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "selected": {
+            "value": "#4c239e",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "hover": {
+            "value": "#472195",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "focus": {
+            "value": "#4c239e",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "surface-main": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-main}",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "surface-strong": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-strong}",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "surface-moderate": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-moderate}",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        }
+      }
+    },
+    "transparent": {
+      "bg": {
+        "primary": {
+          "enabled": {
+            "value": "#5929ba26",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "surface-strong": {
+          "enabled": {
+            "value": "#0c0e1480",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "warning": {
+          "enabled": {
+            "value": "#6b4f2126",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "secondary": {
+          "enabled": {
+            "value": "#0d484526",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "surface-moderate": {
+          "enabled": {
+            "value": "#12151e80",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "success": {
+          "enabled": {
+            "value": "#335e1426",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "critical": {
+          "enabled": {
+            "value": "#60181026",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        }
+      }
+    },
+    "illustration": {
+      "shade": {
+        "neutral": {
+          "100": {
+            "value": "#c9d0e0",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "200": {
+            "value": "#b2bbd2",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "300": {
+            "value": "#aab4ce",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "400": {
+            "value": "{jf.scheme.neutral}",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "500": {
+            "value": "#36415c",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "600": {
+            "value": "#313b54",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "700": {
+            "value": "#22293b",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "800": {
+            "value": "#181d2a",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "900": {
+            "value": "#12151e",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "1000": {
+            "value": "#0a0c11",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        },
+        "primary": {
+          "300": {
+            "value": "#baa2ea",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          },
+          "400": {
+            "value": "#916ade",
+            "type": "color",
+            "parent": "BRAND THEMES/Dark",
+            "description": ""
+          }
+        }
+      }
+    },
+    "border-color": {
+      "moderate": {
+        "value": "#313b54",
+        "type": "color",
+        "parent": "BRAND THEMES/Dark",
+        "description": ""
+      },
+      "muted": {
+        "value": "#22293b",
+        "type": "color",
+        "parent": "BRAND THEMES/Dark",
+        "description": ""
+      },
+      "primary": {
+        "value": "#5929ba",
+        "type": "color",
+        "parent": "BRAND THEMES/Dark",
+        "description": ""
+      },
+      "default": {
+        "value": "#404d6d",
+        "type": "color",
+        "parent": "BRAND THEMES/Dark",
+        "description": ""
+      }
+    },
+    "scheme": {
+      "bg": {
+        "surface-main": {
+          "value": "#181d2a",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      },
+      "fg": {
+        "primary": {
+          "value": "#b399e8",
+          "type": "color",
+          "parent": "BRAND THEMES/Dark",
+          "description": ""
+        }
+      }
+    }
+  }
+}

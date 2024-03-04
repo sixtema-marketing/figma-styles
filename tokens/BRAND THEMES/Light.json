@@ -1,0 +1,640 @@
+{
+  "jf": {
+    "fg": {
+      "default": {
+        "enabled": {
+          "value": "{jf.scheme.fg.default}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#1d2332",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#1d2332",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#404e70",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "moderate": {
+        "enabled": {
+          "value": "{jf.scheme.fg.moderate}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#596b97",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#36415d",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#36415d",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "BRAND THEMES/Light",
+        "description": ""
+      },
+      "warning": {
+        "enabled": {
+          "value": "{jf.scheme.fg.warning}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#9b7330",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#533d1a",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#533d1a",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "muted": {
+        "enabled": {
+          "value": "{jf.scheme.fg.muted}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#53648f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#53648f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#8492b7",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "primary": {
+        "enabled": {
+          "value": "{jf.scheme.fg.primary}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#7645d6",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#4c239e",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#4c239e",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "secondary": {
+        "enabled": {
+          "value": "{jf.scheme.fg.secondary}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#0c433f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#1b968e",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#0c433f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "success": {
+        "enabled": {
+          "value": "{jf.scheme.fg.success}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#47841b",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#1b320a",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#1b320a",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "critical": {
+        "enabled": {
+          "value": "{jf.scheme.fg.critical}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#a4291b",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#52140e",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#52140e",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz6": {
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz6}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#c333cd",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#7d2084",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#7d2084",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz7": {
+        "focus": {
+          "value": "#1f3109",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#528419",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#1f3109",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz7}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz4": {
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz4}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#504606",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#aa940d",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#504606",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz2": {
+        "focus": {
+          "value": "#005167",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "hover": {
+          "value": "#009cc7",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#005167",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz2}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz5": {
+        "hover": {
+          "value": "#ca671a",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#773c0f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#773c0f",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz5}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz3": {
+        "hover": {
+          "value": "#199771",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz3}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#0b4332",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#0b4332",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "dataviz1": {
+        "hover": {
+          "value": "#2f5b94",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "focus": {
+          "value": "#182e4b",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "selected": {
+          "value": "#182e4b",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        },
+        "enabled": {
+          "value": "{jf.scheme.fg.dataviz1}",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      }
+    },
+    "regular": {
+      "bg": {
+        "primary": {
+          "enabled": {
+            "value": "{jf.scheme.bg.primary}",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "selected": {
+            "value": "#5f2bc5",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "hover": {
+            "value": "#5929ba",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "focus": {
+            "value": "#5f2bc5",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "surface-main": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-main}",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "surface-strong": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-strong}",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "surface-moderate": {
+          "enabled": {
+            "value": "{jf.scheme.bg.surface-moderate}",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        }
+      }
+    },
+    "transparent": {
+      "bg": {
+        "primary": {
+          "enabled": {
+            "value": "#7545d626",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "surface-strong": {
+          "enabled": {
+            "value": "#d8dde880",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "warning": {
+          "enabled": {
+            "value": "#c28f3c26",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "secondary": {
+          "enabled": {
+            "value": "#1a8f8926",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "surface-moderate": {
+          "enabled": {
+            "value": "#e3e7ef80",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "success": {
+          "enabled": {
+            "value": "#40761926",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "critical": {
+          "enabled": {
+            "value": "#c02f1f26",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        }
+      }
+    },
+    "illustration": {
+      "shade": {
+        "neutral": {
+          "100": {
+            "value": "#e3e7ef",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "200": {
+            "value": "#d8dde8",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "300": {
+            "value": "#c9d0e0",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "400": {
+            "value": "#b2bbd2",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "500": {
+            "value": "#aab4ce",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "600": {
+            "value": "#9ba7c4",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "700": {
+            "value": "#8492b7",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "800": {
+            "value": "#7c8bb2",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "900": {
+            "value": "{jf.scheme.neutral}",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "1000": {
+            "value": "#404d6d",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        },
+        "primary": {
+          "300": {
+            "value": "#baa2ea",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          },
+          "400": {
+            "value": "#916ade",
+            "type": "color",
+            "parent": "BRAND THEMES/Light",
+            "description": ""
+          }
+        }
+      }
+    },
+    "border-color": {
+      "moderate": {
+        "value": "#8492b7",
+        "type": "color",
+        "parent": "BRAND THEMES/Light",
+        "description": ""
+      },
+      "muted": {
+        "value": "#d8dde8",
+        "type": "color",
+        "parent": "BRAND THEMES/Light",
+        "description": ""
+      },
+      "primary": {
+        "value": "{jf.scheme.primary}",
+        "type": "color",
+        "parent": "BRAND THEMES/Light",
+        "description": ""
+      },
+      "default": {
+        "value": "{jf.scheme.neutral}",
+        "type": "color",
+        "parent": "BRAND THEMES/Light",
+        "description": ""
+      }
+    },
+    "scheme": {
+      "bg": {
+        "surface-main": {
+          "value": "#f7f8fa",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      },
+      "fg": {
+        "primary": {
+          "value": "#5929ba",
+          "type": "color",
+          "parent": "BRAND THEMES/Light",
+          "description": ""
+        }
+      }
+    }
+  }
+}
